@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+    //The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+    defaultConfig {
+        applicationId "com.gmk.geisa"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 23
+        versionName "2.2.1"
+        //versionName "2.1.6"
+        multiDexEnabled true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+    dexOptions {
+        //incremental true
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+
+        repositories {
+            //  maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+            // maven { url 'http://ksoap2-android.googlecode.com/svn/m2-repo' }
+            maven { url "https://jitpack.io" }
+
+        }
+
+    }
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GroovyAssignabilityCheck,GroovyAssignabilityCheck,GroovyAssignabilityCheck,GroovyAssignabilityCheck
+    //compile 'com.google.firebase:firebase-core:12.0.1'
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'com.github.kittinunf.fuel:fuel-android:0.71'
+    compile 'com.jpardogo.materialtabstrip:library:1.1.0'
+    compile 'com.yqritc:recyclerview-flexibledivider:1.2.6'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.google.android.gms:play-services-identity:11.4.2'
+    compile 'com.google.android.gms:play-services-gcm:11.4.2'
+    compile 'com.google.android.gms:play-services-auth:11.4.2'
+    compile 'com.google.android.gms:play-services-location:11.4.2'
+    compile 'com.google.android.gms:play-services-places:11.4.2'
+    compile 'com.google.firebase:firebase-messaging:11.4.2'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.github.kenmeidearu:MaterialDateTimePicker:1.0.4'
+    compile 'com.github.kenmeidearu:SearchableSpinner:1.5.5'
+    compile 'com.github.kenmeidearu:surveylib:v2.2'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.3.1'
+    compile 'com.kyleduo.switchbutton:library:1.4.4'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-ads:11.4.2'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.github.gcacace:signature-pad:1.1.0'
+    compile 'com.github.clans:fab:1.6.4'
+    compile 'com.jaredrummler:android-processes:1.0.9'
+    compile 'com.github.Mariovc:ImagePicker:1.2.0'
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.0.1'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'org.jsoup:jsoup:1.10.2'
+    testCompile 'junit:junit:4.12'
+
+
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+
+    compile 'com.squareup.okhttp3:okhttp:3.0.0-RC1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.0.0-RC1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
+}
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--5bengin cst Group Distributor Name-->
+    <TextView
+        android:id="@+id/cstLabelDistibutorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Name" />
+
+
+    <TextView
+        android:id="@+id/cstSpaceCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/cstLabelDistibutorName"
+        android:layout_alignBaseline="@id/cstLabelDistibutorName"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistibutorName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/cstSpaceCode"
+        android:text="Distributor Name" />
+    <!--end cst label-->
+
+    <!--5bengin cst Group Price-->
+    <TextView
+        android:id="@+id/cstLabelGroupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/cstLabelDistibutorName"
+        android:layout_alignLeft="@id/cstLabelInfoDist"
+        android:layout_marginTop="5dp"
+        android:text="Group Price" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelGroupPrice"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstGroupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelGroupPrice"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="10dp"
+        android:text="Id Group Price" />
+    <!--end cst label-->
+    <!--5bengin cst Group Diskon-->
+    <TextView
+        android:id="@+id/cstLabelGroupDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelGroupPrice"
+        android:layout_marginTop="5dp"
+        android:text="Group Diskon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelGroupDiskon"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstGroupDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelGroupDiskon"
+        android:layout_alignLeft="@id/cstGroupPrice"
+        android:layout_marginTop="5dp"
+        android:text="Id Group Diskon" />
+
+    <!--end cst label-->
+
+    <!--5bengin cst  Distributor Customer Code-->
+    <TextView
+        android:id="@+id/cstLabelDistibutorCustomerCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelGroupDiskon"
+        android:layout_marginTop="5dp"
+        android:text="Customer Code" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistibutorCustomerCode"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorCustomerCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistibutorCustomerCode"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Customer Code" />
+    <!--end cst label-->
+    <!--5bengin cst  Distributor Area code+name-->
+    <TextView
+        android:id="@+id/cstLabelDistibutorArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelDistibutorCustomerCode"
+        android:layout_marginTop="5dp"
+        android:text="Area Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistibutorArea"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistibutorArea"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Area Name" />
+    <!--end cst label-->
+    <!--5bengin cst Group PIC Distributor-->
+    <TextView
+        android:id="@+id/cstLabelDistibutorPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelDistibutorArea"
+        android:layout_marginTop="5dp"
+        android:text="Distributor PIC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistibutorPic"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistibutorPic"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Distributor PIC" />
+    <!--end cst label-->
+    <!--5bengin cst Group Distributor Email-->
+    <TextView
+        android:id="@+id/cstLabelDistributorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelDistibutorPic"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistributorEmail"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistributorEmail"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Email" />
+    <!--end cst label-->
+    <!--5bengin cst Group Distributor Telp-->
+    <TextView
+        android:id="@+id/cstLabelDistributorTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelDistributorEmail"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Telp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistributorTelp"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistributorTelp"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Telp" />
+    <!--end cst label-->
+    <!--5bengin cst Group Distributor Address-->
+    <TextView
+        android:id="@+id/cstLabelDistributorAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cstLabelGroupPrice"
+        android:layout_below="@id/cstLabelDistributorTelp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cstLabelDistributorAddress"
+        android:layout_alignLeft="@id/cstSpaceCode"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" : " />
+
+    <TextView
+        android:id="@+id/cstDistributorAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cstLabelDistributorAddress"
+        android:layout_alignLeft="@id/cstDistributorName"
+        android:layout_marginTop="5dp"
+        android:text="Distributor Address" />
+    <!--end cst label-->
+</RelativeLayout>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\geisav3\\geisar3\\GeisaAndro\\GeisaApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\fiqri\\.gradle\\caches\\transforms-1\\files-1.1\\MaterialDateTimePicker-1.0.4.aar\\202d9a7bfa28d4db3024ebf5cf5f1515\\res\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,161,223,274,325,379,433,494,546",
+                        "endColumns": "51,53,61,50,50,53,53,60,51,61",
+                        "endOffsets": "102,156,218,269,320,374,428,489,541,603"
+                    }
+                }
+            ]
+        }
+    ]
+}

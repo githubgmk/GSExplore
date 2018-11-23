@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kittinunf.fuel:fuel-android-0.71">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fuel-android-0.71.aar/a5243f0fb4a269e65fac232e175a8637/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fuel-android-0.71.aar/a5243f0fb4a269e65fac232e175a8637/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kittinunf.fuel/fuel-android/0.71/a6d357ff72fb7f91947ff0f86d78a8dc593f6ba8/fuel-android-0.71-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

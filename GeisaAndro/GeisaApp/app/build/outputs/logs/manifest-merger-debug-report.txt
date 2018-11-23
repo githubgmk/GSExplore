@@ -1,0 +1,1197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\396f360b19003a34338aa77526926940\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.kittinunf.fuel:fuel-android:0.71] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fuel-android-0.71.aar\a5243f0fb4a269e65fac232e175a8637\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\41fd62594f7776ac32ad264926b8a749\AndroidManifest.xml:2:1-11:12
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.2.6] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-flexibledivider-1.2.6.aar\99beb058e2b18014663ddd390a9611a0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.kenmeidearu:surveylib:v2.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\surveylib-v2.2.aar\c792669735deee384631764552948311\AndroidManifest.xml:2:1-17:12
+MERGED from [com.kyleduo.switchbutton:library:1.4.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.4.4.aar\44ffcbd2a9e95444f300d09590e42e5b\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.Mariovc:ImagePicker:1.2.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\ImagePicker-1.2.0.aar\7b2273bb26b45f468da6d8aff7bfe209\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\392aee5f3e0da93f23a59bbddfe1802f\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\9e4ad807967df5894059ede37a34c9a5\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\21d3fa8127e443bd18d3c81682c626fc\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:16:1-30:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\69c75942399d3856cd6c632e7a28933b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9371b85e9b0f0be9f61be1a14b7cb1f0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\98d88512f38ed07b74545fd3410f1435\AndroidManifest.xml:16:1-18:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.gcacace:signature-pad:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\signature-pad-1.1.0.aar\374c0b2b045d1a9e716a80926355e825\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b48cbd1d7a612cdfa414bdb9589e95f6\AndroidManifest.xml:2:1-14:12
+MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\android-processes-1.0.9.aar\d29fbdcb38555d41735677f426c8e6d9\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-3.0.1.aar\f8cad104668f1975682d8f4cf35c0881\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\22f1d4d7ffd11f5b8c7e19380ed6c224\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\9032fd3ab08f8f6df2b376d5192b8211\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\739f9e7b6668f8791f629c00b90f2d1d\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\0923d7d1ec64bc60b5fdfd5ed9976f7d\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\beb049f0397cc0db41a61bc55b366569\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\113b69cf150b854b03e9f883ed7c1cd4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\b613b71b7bcb5fca448921b22d441d9e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\b7f511b9bdf8373821209b2990a37ae4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\c3f4f44ddf29a5ac08d307488b7aa429\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\aa7edba7d1da2bb30028b55c2696103c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\f13b9a3f40d38bd6f5dde3d2245cb51f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\bd705c3244a9048f54a95a39d7f84cdc\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\d69cd47472ea3f3aa09792a325a0165c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\489d0ace75f85009254b4ee2af948fc9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\367668a7c2014053144c42f665d21d5d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\dc2aacd2d6f9362b14452cf43a888081\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\9fe0bba26525037b4fd20c18680e9246\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3faf38abab6ee6e744c0a71dd8598ef5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\462e377bd6ec0509ab74f47e79ae0554\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\08be6822af715a5e700185fe93bfe834\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\7abed3e652ac62629cdfbb8a339d2588\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2cbdd1914348be346029e2fcf8423f3f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\384673e45de29584a4cbcd42e9d622fd\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\b61e2bc11350bf3c16fb39def8771477\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\58c43d300a82e6ec7181725f87f763de\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+	package
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:1-283:12
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:2:11-69
+permission#com.gmk.geisa.permission.MAPS_RECEIVE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:6:9-61
+uses-permission#com.gmk.geisa.permission.MAPS_RECEIVE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:11:5-98
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:11:22-95
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_GPS
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:13:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:11:5-67
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.GPS_ENABLED_CHANGE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:18:5-77
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:18:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:25:22-69
+permission#android.permission.MODIFY_PHONE_STATE
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:27:17-69
+permission#android.permission.FORCE_STOP_PACKAGES
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:28:5-73
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:28:17-70
+permission#android.permission.CONTROL_LOCATION_UPDATES
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:29:17-75
+application
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:31:5-281:19
+MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\41fd62594f7776ac32ad264926b8a749\AndroidManifest.xml:9:5-20
+MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\41fd62594f7776ac32ad264926b8a749\AndroidManifest.xml:9:5-20
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:13:5-17:19
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:13:5-17:19
+MERGED from [com.github.kenmeidearu:surveylib:v2.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\surveylib-v2.2.aar\c792669735deee384631764552948311\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.kenmeidearu:surveylib:v2.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\surveylib-v2.2.aar\c792669735deee384631764552948311\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Mariovc:ImagePicker:1.2.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\ImagePicker-1.2.0.aar\7b2273bb26b45f468da6d8aff7bfe209\AndroidManifest.xml:26:5-29:19
+MERGED from [com.github.Mariovc:ImagePicker:1.2.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\ImagePicker-1.2.0.aar\7b2273bb26b45f468da6d8aff7bfe209\AndroidManifest.xml:26:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\392aee5f3e0da93f23a59bbddfe1802f\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\392aee5f3e0da93f23a59bbddfe1802f\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\9e4ad807967df5894059ede37a34c9a5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\9e4ad807967df5894059ede37a34c9a5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\21d3fa8127e443bd18d3c81682c626fc\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\21d3fa8127e443bd18d3c81682c626fc\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:19:5-29:19
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\69c75942399d3856cd6c632e7a28933b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\69c75942399d3856cd6c632e7a28933b\AndroidManifest.xml:9:5-20
+MERGED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:28:5-20
+MERGED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9371b85e9b0f0be9f61be1a14b7cb1f0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9371b85e9b0f0be9f61be1a14b7cb1f0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.gcacace:signature-pad:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\signature-pad-1.1.0.aar\374c0b2b045d1a9e716a80926355e825\AndroidManifest.xml:11:5-20
+MERGED from [com.github.gcacace:signature-pad:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\signature-pad-1.1.0.aar\374c0b2b045d1a9e716a80926355e825\AndroidManifest.xml:11:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b48cbd1d7a612cdfa414bdb9589e95f6\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b48cbd1d7a612cdfa414bdb9589e95f6\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\22f1d4d7ffd11f5b8c7e19380ed6c224\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\22f1d4d7ffd11f5b8c7e19380ed6c224\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\0923d7d1ec64bc60b5fdfd5ed9976f7d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\0923d7d1ec64bc60b5fdfd5ed9976f7d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\beb049f0397cc0db41a61bc55b366569\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\beb049f0397cc0db41a61bc55b366569\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\113b69cf150b854b03e9f883ed7c1cd4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\113b69cf150b854b03e9f883ed7c1cd4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\b613b71b7bcb5fca448921b22d441d9e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\b613b71b7bcb5fca448921b22d441d9e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\b7f511b9bdf8373821209b2990a37ae4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\b7f511b9bdf8373821209b2990a37ae4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\c3f4f44ddf29a5ac08d307488b7aa429\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\c3f4f44ddf29a5ac08d307488b7aa429\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\aa7edba7d1da2bb30028b55c2696103c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\aa7edba7d1da2bb30028b55c2696103c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\f13b9a3f40d38bd6f5dde3d2245cb51f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\f13b9a3f40d38bd6f5dde3d2245cb51f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\bd705c3244a9048f54a95a39d7f84cdc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\bd705c3244a9048f54a95a39d7f84cdc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\d69cd47472ea3f3aa09792a325a0165c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\d69cd47472ea3f3aa09792a325a0165c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\489d0ace75f85009254b4ee2af948fc9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\489d0ace75f85009254b4ee2af948fc9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\367668a7c2014053144c42f665d21d5d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\367668a7c2014053144c42f665d21d5d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\dc2aacd2d6f9362b14452cf43a888081\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\dc2aacd2d6f9362b14452cf43a888081\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\9fe0bba26525037b4fd20c18680e9246\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\9fe0bba26525037b4fd20c18680e9246\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3faf38abab6ee6e744c0a71dd8598ef5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3faf38abab6ee6e744c0a71dd8598ef5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\462e377bd6ec0509ab74f47e79ae0554\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\462e377bd6ec0509ab74f47e79ae0554\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\08be6822af715a5e700185fe93bfe834\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\08be6822af715a5e700185fe93bfe834\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\7abed3e652ac62629cdfbb8a339d2588\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\7abed3e652ac62629cdfbb8a339d2588\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2cbdd1914348be346029e2fcf8423f3f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2cbdd1914348be346029e2fcf8423f3f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\384673e45de29584a4cbcd42e9d622fd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\384673e45de29584a4cbcd42e9d622fd\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\b61e2bc11350bf3c16fb39def8771477\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\b61e2bc11350bf3c16fb39def8771477\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\58c43d300a82e6ec7181725f87f763de\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\58c43d300a82e6ec7181725f87f763de\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:34:9-43
+	android:allowBackup
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:37:9-40
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:32:9-68
+meta-data#com.google.android.gms.version
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:38:9-40:69
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:40:13-66
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:39:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:41:9-43:71
+	android:value
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:43:13-68
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:42:13-58
+activity#com.gmk.geisa.activities.main.MainActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:45:9-49:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:48:13-45
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:47:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:46:13-57
+activity#com.gmk.geisa.activities.main.LoginActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:50:9-53:52
+	android:screenOrientation
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:52:13-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:51:13-58
+activity#com.gmk.geisa.activities.personal.ForgotPasswordActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:54:9-58:59
+	android:screenOrientation
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:56:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:55:13-71
+activity#com.gmk.geisa.activities.personal.PesanActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:59:9-62:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:61:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:60:13-62
+activity#com.gmk.geisa.activities.personal.ChatRoomActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:63:9-66:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:65:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:66:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:64:13-65
+activity#com.gmk.geisa.activities.main.SplashActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:67:9-75:20
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:69:13-47
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:68:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:73:27-74
+activity#com.gmk.geisa.activities.main.PromoActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:76:9-80:45
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:80:13-43
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:78:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:79:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:77:13-58
+activity#com.gmk.geisa.activities.customer.CustomerActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:81:9-85:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:84:13-60
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:83:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:82:13-65
+activity#com.gmk.geisa.activities.customer.CustomerOutletActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:86:9-80
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:86:19-77
+activity#com.gmk.geisa.activities.customer.CustomerDetailActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:87:9-90:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:89:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:88:13-71
+activity#com.gmk.geisa.activities.customer.CustomerDetailAllActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:91:9-94:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:93:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:94:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:92:13-74
+activity#com.gmk.geisa.activities.customer.CustomerAddActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:95:9-77
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:95:19-74
+activity#com.gmk.geisa.activities.support.PetaActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:96:9-99:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:98:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:99:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:97:13-60
+activity#com.gmk.geisa.activities.customer.CustomerMapActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:100:9-77
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:100:19-74
+activity#com.gmk.geisa.activities.callplan.CallPlanActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:101:9-105:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:104:13-60
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:103:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:105:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:102:13-65
+activity#com.gmk.geisa.activities.callplan.CallPlanDraftActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:106:9-110:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:109:13-60
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:108:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:110:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:107:13-70
+activity#com.gmk.geisa.activities.callplan.CallPlanDraftNewActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:111:9-115:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:114:13-60
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:113:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:115:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:112:13-73
+activity#com.gmk.geisa.activities.callplan.CallPlanDraftNewAddCustActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:116:9-119:67
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:118:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:119:13-64
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:117:13-80
+activity#com.gmk.geisa.activities.support.SyncActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:127:9-130:73
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:129:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:130:13-70
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:128:13-60
+activity#com.gmk.geisa.activities.support.ResendActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:131:9-134:73
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:133:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:134:13-70
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:132:13-62
+activity#com.gmk.geisa.activities.customer.CustomerAddDistributorActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:135:9-138:73
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:137:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:138:13-70
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:136:13-79
+activity#com.gmk.geisa.activities.personal.PasswordActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:139:9-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:139:19-71
+activity#com.gmk.geisa.activities.support.SupportActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:140:9-142:62
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:142:13-59
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:141:13-63
+activity#com.gmk.geisa.activities.callplan.visit.VisitCallPlan
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:143:9-146:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:145:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:146:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:144:13-68
+activity#com.gmk.geisa.activities.callplan.visit.CustomerService
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:147:9-150:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:149:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:150:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:148:13-70
+activity#com.gmk.geisa.activities.callplan.visit.Expansi
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:151:9-154:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:153:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:154:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:152:13-62
+activity#com.gmk.geisa.activities.callplan.visit.BiActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:155:9-157:77
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:157:13-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:156:13-65
+activity#com.gmk.geisa.activities.callplan.visit.DemoActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:158:9-160:77
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:160:13-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:159:13-67
+activity#com.gmk.geisa.activities.callplan.visit.ComplainActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:161:9-163:77
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:163:13-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:162:13-71
+activity#com.gmk.geisa.activities.callplan.visit.SampleActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:164:9-167:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:166:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:167:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:165:13-69
+activity#com.gmk.geisa.activities.callplan.visit.SampleAddActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:168:9-170:77
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:170:13-74
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:169:13-72
+activity#com.gmk.geisa.activities.callplan.visit.SampleItemActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:171:9-174:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:173:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:174:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:172:13-73
+activity#com.gmk.geisa.activities.callplan.visit.SampleItemAddProductActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:175:9-178:67
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:177:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:178:13-64
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:176:13-83
+activity#com.gmk.geisa.activities.callplan.visit.TodoActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:179:9-182:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:181:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:182:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:180:13-67
+activity#com.gmk.geisa.activities.callplan.visit.SurveyActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:183:9-186:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:185:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:186:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:184:13-69
+activity#com.gmk.geisa.activities.product.ProductActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:187:9-191:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:190:13-41
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:189:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:191:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:188:13-63
+activity#com.gmk.geisa.activities.product.StockDetailActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:192:9-195:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:194:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:195:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:193:13-67
+activity#com.gmk.geisa.activities.po.PoNewActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:196:9-200:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:199:13-35
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:198:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:200:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:197:13-56
+activity#com.gmk.geisa.activities.po.PoConfirmActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:201:9-205:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:204:13-43
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:203:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:205:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:202:13-60
+activity#com.gmk.geisa.activities.report.ReportCallPlanActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:206:9-210:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:209:13-49
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:208:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:210:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:207:13-69
+activity#com.gmk.geisa.activities.report.ReportPOActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:211:9-215:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:214:13-42
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:213:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:215:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:212:13-63
+activity#com.gmk.geisa.activities.report.ReportDemoActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:216:9-220:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:219:13-44
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:218:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:220:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:217:13-65
+activity#com.gmk.geisa.activities.report.ReportMain
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:221:9-225:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:224:13-39
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:223:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:225:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:222:13-57
+activity#com.gmk.geisa.activities.report.ReportBIActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:226:9-230:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:229:13-43
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:228:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:230:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:227:13-63
+activity#com.gmk.geisa.activities.report.ReportComplainActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:231:9-235:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:234:13-48
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:233:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:235:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:232:13-69
+activity#com.gmk.geisa.activities.report.ReportComplainDetailActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:236:9-239:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:238:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:239:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:237:13-75
+activity#com.gmk.geisa.activities.report.ReportSampleActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:240:9-244:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:243:13-48
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:242:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:244:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:241:13-67
+activity#com.gmk.geisa.activities.report.ReportSampleDetailActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:245:9-248:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:247:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:248:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:246:13-73
+activity#com.gmk.geisa.activities.po.PoNewAddProductActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:249:9-252:67
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:251:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:252:13-64
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:250:13-66
+activity#com.gmk.geisa.activities.po.PoNewAddNumberReffActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:253:9-256:67
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:255:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:256:13-64
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:254:13-69
+activity#com.gmk.geisa.activities.rofo.RofoActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:257:9-261:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:260:13-35
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:259:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:261:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:258:13-57
+activity#com.gmk.geisa.activities.rofo.RofoMonthActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:262:9-265:59
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:264:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:265:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:263:13-62
+activity#com.gmk.geisa.activities.rofo.RofoNewActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:266:9-270:59
+	android:label
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:269:13-35
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:268:13-74
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:270:13-56
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:267:13-60
+activity#com.google.android.gms.ads.AdActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:271:9-274:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:25:9-257
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:273:13-122
+	android:theme
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:274:13-61
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:272:13-65
+activity#com.androidadvance.androidsurvey.SurveyActivity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:275:9-278:57
+	android:windowSoftInputMode
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:278:13-54
+	android:configChanges
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:277:13-122
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:276:13-75
+activity#com.gmk.geisa.activities.Promo1.Promo1Activity
+ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:279:9-280:63
+	android:name
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml:280:13-61
+uses-sdk
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\396f360b19003a34338aa77526926940\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\396f360b19003a34338aa77526926940\AndroidManifest.xml:20:5-43
+MERGED from [com.github.kittinunf.fuel:fuel-android:0.71] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fuel-android-0.71.aar\a5243f0fb4a269e65fac232e175a8637\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kittinunf.fuel:fuel-android:0.71] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fuel-android-0.71.aar\a5243f0fb4a269e65fac232e175a8637\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\41fd62594f7776ac32ad264926b8a749\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\41fd62594f7776ac32ad264926b8a749\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.2.6] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-flexibledivider-1.2.6.aar\99beb058e2b18014663ddd390a9611a0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.2.6] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-flexibledivider-1.2.6.aar\99beb058e2b18014663ddd390a9611a0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kenmeidearu:SearchableSpinner:1.5.5] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.5.5.aar\28cacb57ac2db90eb961474f7316420f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kenmeidearu:surveylib:v2.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\surveylib-v2.2.aar\c792669735deee384631764552948311\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kenmeidearu:surveylib:v2.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\surveylib-v2.2.aar\c792669735deee384631764552948311\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kyleduo.switchbutton:library:1.4.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.4.4.aar\44ffcbd2a9e95444f300d09590e42e5b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kyleduo.switchbutton:library:1.4.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\library-1.4.4.aar\44ffcbd2a9e95444f300d09590e42e5b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.Mariovc:ImagePicker:1.2.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\ImagePicker-1.2.0.aar\7b2273bb26b45f468da6d8aff7bfe209\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.Mariovc:ImagePicker:1.2.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\ImagePicker-1.2.0.aar\7b2273bb26b45f468da6d8aff7bfe209\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\392aee5f3e0da93f23a59bbddfe1802f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\392aee5f3e0da93f23a59bbddfe1802f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\9e4ad807967df5894059ede37a34c9a5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\9e4ad807967df5894059ede37a34c9a5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\21d3fa8127e443bd18d3c81682c626fc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\21d3fa8127e443bd18d3c81682c626fc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:17:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\69c75942399d3856cd6c632e7a28933b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\69c75942399d3856cd6c632e7a28933b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9371b85e9b0f0be9f61be1a14b7cb1f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9371b85e9b0f0be9f61be1a14b7cb1f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\98d88512f38ed07b74545fd3410f1435\AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\98d88512f38ed07b74545fd3410f1435\AndroidManifest.xml:17:5-94
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.gcacace:signature-pad:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\signature-pad-1.1.0.aar\374c0b2b045d1a9e716a80926355e825\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gcacace:signature-pad:1.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\signature-pad-1.1.0.aar\374c0b2b045d1a9e716a80926355e825\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b48cbd1d7a612cdfa414bdb9589e95f6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b48cbd1d7a612cdfa414bdb9589e95f6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\android-processes-1.0.9.aar\d29fbdcb38555d41735677f426c8e6d9\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\android-processes-1.0.9.aar\d29fbdcb38555d41735677f426c8e6d9\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-3.0.1.aar\f8cad104668f1975682d8f4cf35c0881\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-3.0.1.aar\f8cad104668f1975682d8f4cf35c0881\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\22f1d4d7ffd11f5b8c7e19380ed6c224\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\22f1d4d7ffd11f5b8c7e19380ed6c224\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\9032fd3ab08f8f6df2b376d5192b8211\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\9032fd3ab08f8f6df2b376d5192b8211\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\739f9e7b6668f8791f629c00b90f2d1d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\739f9e7b6668f8791f629c00b90f2d1d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\0923d7d1ec64bc60b5fdfd5ed9976f7d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\0923d7d1ec64bc60b5fdfd5ed9976f7d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\443229ebbbf538e548de79c876dd9862\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\beb049f0397cc0db41a61bc55b366569\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\beb049f0397cc0db41a61bc55b366569\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\cdaa29349216cb5d02b0899f0ad1c8eb\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\113b69cf150b854b03e9f883ed7c1cd4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\113b69cf150b854b03e9f883ed7c1cd4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\b613b71b7bcb5fca448921b22d441d9e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\b613b71b7bcb5fca448921b22d441d9e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\b7f511b9bdf8373821209b2990a37ae4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\b7f511b9bdf8373821209b2990a37ae4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\c3f4f44ddf29a5ac08d307488b7aa429\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\c3f4f44ddf29a5ac08d307488b7aa429\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\aa7edba7d1da2bb30028b55c2696103c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\aa7edba7d1da2bb30028b55c2696103c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\f13b9a3f40d38bd6f5dde3d2245cb51f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\f13b9a3f40d38bd6f5dde3d2245cb51f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\bd705c3244a9048f54a95a39d7f84cdc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\bd705c3244a9048f54a95a39d7f84cdc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\d69cd47472ea3f3aa09792a325a0165c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\d69cd47472ea3f3aa09792a325a0165c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\489d0ace75f85009254b4ee2af948fc9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\489d0ace75f85009254b4ee2af948fc9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\367668a7c2014053144c42f665d21d5d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\367668a7c2014053144c42f665d21d5d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\dc2aacd2d6f9362b14452cf43a888081\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\dc2aacd2d6f9362b14452cf43a888081\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\9fe0bba26525037b4fd20c18680e9246\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\9fe0bba26525037b4fd20c18680e9246\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3faf38abab6ee6e744c0a71dd8598ef5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3faf38abab6ee6e744c0a71dd8598ef5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\462e377bd6ec0509ab74f47e79ae0554\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\462e377bd6ec0509ab74f47e79ae0554\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\08be6822af715a5e700185fe93bfe834\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\08be6822af715a5e700185fe93bfe834\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\7abed3e652ac62629cdfbb8a339d2588\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\7abed3e652ac62629cdfbb8a339d2588\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2cbdd1914348be346029e2fcf8423f3f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2cbdd1914348be346029e2fcf8423f3f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\384673e45de29584a4cbcd42e9d622fd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\384673e45de29584a4cbcd42e9d622fd\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\b61e2bc11350bf3c16fb39def8771477\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\b61e2bc11350bf3c16fb39def8771477\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\58c43d300a82e6ec7181725f87f763de\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\58c43d300a82e6ec7181725f87f763de\AndroidManifest.xml:4:5-43
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\geisav3\geisar3\GeisaAndro\GeisaApp\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fa3e3fe4a16fe80d0f6513284dae022d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\42a770a2f5dfc66de393008d17ce0db1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b68da0d162f04d75aadc59e62488acb0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\bee387f230f56f11573d1646bc0446f4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\49a596c06e6b0602cdf91842b1059f65\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a906039d2b48c3af082f89d66c406e45\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\274fae24d35516918be4d7e2dc252aac\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f07f93e038ac77de03bdc0fb6db8c1a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3eb2e6eb00b3d1d48538a9326bbcbdc3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c188aeb77e85eb0e31d867290713c2d2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\787d922150534fbc1d2155b3017abd6b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\91babef0359fe72787deefebc1ad8563\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\cd2f822292b00c41729eb9b16ae6a818\AndroidManifest.xml:27:13-51
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\086cb39921d9d2f585e9b34270e0ab39\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\29b0e0a4bea1a5e3f104f14f65312880\AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\3922d389b8a4e50ff57697e1d4a64fe4\AndroidManifest.xml:24:18-63
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\34e14a21486850da6082a9460ffd1394\AndroidManifest.xml:25:25-75
+uses-permission#android.permission.VIBRATE
+ADDED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.github.kenmeidearu:MaterialDateTimePicker:1.0.4] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\MaterialDateTimePicker-1.0.4.aar\202d9a7bfa28d4db3024ebf5cf5f1515\AndroidManifest.xml:26:22-63
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\91f69db513035e326dd606a16afdd038\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\ca74476038ed9f676cd35ee4cd76308b\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\b7de9617ccc5fb3da46a951de72250cb\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\5e0d37de93532a89fe7b14050201a5bf\AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:17-71
+permission#com.gmk.geisa.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:26:22-76
+uses-permission#com.gmk.geisa.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.gmk.geisa
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:33:27-58
+category#com.gmk.geisa
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\5d88984db1510a2c9ce51636392eacf8\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\003a344281b503c526fc04560fe4325f\AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\fiqri\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d499291467e8984466591c1ae67c3fee\AndroidManifest.xml:26:13-58

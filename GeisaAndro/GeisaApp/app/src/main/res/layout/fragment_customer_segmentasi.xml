@@ -1,0 +1,474 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmk.geisa.fragment.CustomerDetailTabClasificationViewFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cstGroupNama"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <!--bengin cst code-->
+            <TextView
+                android:id="@+id/cstLabelInfosec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SChannelKlasifikasi"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <!--bengin cst Code-->
+            <TextView
+                android:id="@+id/cstLabelCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cstLabelInfosec"
+                android:layout_alignLeft="@id/cstLabelInfosec"
+                android:text="@string/SChannelCode" />
+
+            <TextView
+                android:id="@+id/cstSpaceCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelCode"
+                android:layout_above="@+id/cstCode"
+                android:layout_toEndOf="@+id/cstLabelChannel"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelCode"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/cstSpaceCode"
+                android:text="Code" />
+            <!--end cst code-->
+            <!--bengin cst Level-->
+            <TextView
+                android:id="@+id/cstLabelLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/cstLabelCode"
+                android:layout_alignStart="@+id/cstLabelCode"
+                android:layout_below="@+id/cstLabelCode"
+                android:text="@string/SChannelName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelLevel"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelLevel"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Channel Name" />
+            <!--end cst label-->
+            <!--3 bengin cst Channel-->
+            <TextView
+                android:id="@+id/cstLabelChannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelLevel"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelGroup" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelChannel"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstChannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelChannel"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Channel Group" />
+            <!--end cst label-->
+            <!--4bengin cst Area-->
+            <TextView
+                android:id="@+id/cstLabelArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelChannel"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelPeriode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelArea"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelArea"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Start Periode" />
+            <!--end cst label-->
+            <!--5bengin cst Zone-->
+            <TextView
+                android:id="@+id/cstLabelZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelArea"
+                android:layout_marginTop="5dp"
+                android:text="@string/SchannelDesc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelZone"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelZone"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Keterangan Channel" />
+            <!--end cst label-->
+
+            <TextView
+                android:id="@+id/cstLabelInfoDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelZone"
+                android:layout_marginTop="10dp"
+                android:text="@string/SChannelGrade"
+                android:textStyle="bold" />
+            <!--5bengin cst Location-->
+            <TextView
+                android:id="@+id/cstLabelLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelInfoDetail"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelGradeCode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelLocation"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelLocation"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Grade Code" />
+
+            <!--end cst label-->
+            <!--5bengin cst PIC-->
+            <TextView
+                android:id="@+id/cstLabelPIC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelLocation"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelGradeName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelPIC"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstPIC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelPIC"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Grade Name" />
+            <!--end cst label-->
+            <!--5bengin cst Jabatan PIC-->
+            <TextView
+                android:id="@+id/cstLabelPICJabatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelPIC"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelGradeDetail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelPICJabatan"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstPICJabatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelPICJabatan"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Grade Detail" />
+            <!--end cst label-->
+            <TextView
+                android:id="@+id/cstLabelApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelPICJabatan"
+                android:layout_marginTop="10dp"
+                android:text="@string/SChannelStaging"
+                android:textStyle="bold" />
+            <!--5bengin cst Email-->
+            <TextView
+                android:id="@+id/cstLabelEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelApp"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelAppCode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelEmail"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelEmail"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="App Code" />
+            <!--end cst label-->
+
+            <!--5bengin cst Telp-->
+            <TextView
+                android:id="@+id/cstLabelTelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelEmail"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelAppName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelTelp"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstTelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelTelp"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_alignStart="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="App Name" />
+            <!--end cst label-->
+            <!--5bengin cst HP-->
+            <TextView
+                android:id="@+id/cstLabelHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelTelp"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelStagingCode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelHP"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelHP"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Staging Code" />
+            <!--end cst label-->
+
+            <!--5bengin cst Alamat-->
+            <TextView
+                android:id="@+id/cstLabelAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelHP"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelStagingName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelAlamat"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelAlamat"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Staging Name" />
+            <!--end cst label-->
+            <!--5bengin cst Website-->
+            <TextView
+                android:id="@+id/cstLabelWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelAlamat"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelStagingDesc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelWebsite"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelWebsite"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Staging Description" />
+            <!--end cst label-->
+            <!--5bengin cst tgl Join-->
+            <TextView
+                android:id="@+id/cstLabelJoinDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelWebsite"
+                android:layout_marginTop="5dp"
+                android:text="@string/SChannelStagingWalet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelJoinDate"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstJoinDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelJoinDate"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="5dp"
+                android:text="Share Off Walet" />
+            <!--end cst label-->
+            <!--5bengin cst tgl Join-->
+            <TextView
+                android:id="@+id/cstLabelUdateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/cstLabelCode"
+                android:layout_below="@id/cstLabelJoinDate"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/lastUpdate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/cstLabelUdateDate"
+                android:layout_alignLeft="@id/cstSpaceCode"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="25dp"
+                android:text=" : " />
+
+            <TextView
+                android:id="@+id/cstUpdateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cstLabelUdateDate"
+                android:layout_alignLeft="@id/cstCode"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorAccent"
+                android:text="Last Update" />
+            <!--end cst label-->
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

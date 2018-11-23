@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\geisav3\\geisar3\\GeisaAndro\\GeisaApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo-rLA\\values-lo-rLA.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\fiqri\\.gradle\\caches\\transforms-1\\files-1.1\\MaterialDateTimePicker-1.0.4.aar\\202d9a7bfa28d4db3024ebf5cf5f1515\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,166,265,380,460,563,686,788,881,972,1061,1145",
+                        "endColumns": "60,98,114,79,102,122,101,92,90,88,83,95",
+                        "endOffsets": "161,260,375,455,558,681,783,876,967,1056,1140,1236"
+                    }
+                }
+            ]
+        }
+    ]
+}

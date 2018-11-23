@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pesanImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:src="@drawable/on" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/pesanpengirim"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Pengirim"
+                    android:textSize="@dimen/font16" />
+                <TextView
+                    android:id="@+id/pesantanggal"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center|right"
+                    android:layout_height="wrap_content"
+                    android:text="12 Dec 2016"
+                    android:textSize="@dimen/font14" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pesanjudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Judul"
+                    android:textSize="@dimen/font14" />
+                <TextView
+                    android:id="@+id/pesanisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:textColor="@color/black"
+                    android:text="isi"
+                    android:textSize="@dimen/font14" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

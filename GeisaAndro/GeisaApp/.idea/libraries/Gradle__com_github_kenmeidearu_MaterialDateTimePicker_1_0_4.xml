@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kenmeidearu:MaterialDateTimePicker-1.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MaterialDateTimePicker-1.0.4.aar/202d9a7bfa28d4db3024ebf5cf5f1515/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MaterialDateTimePicker-1.0.4.aar/202d9a7bfa28d4db3024ebf5cf5f1515/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kenmeidearu/MaterialDateTimePicker/1.0.4/9e018353b778702e497d96bcddea9d05bce3874d/MaterialDateTimePicker-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

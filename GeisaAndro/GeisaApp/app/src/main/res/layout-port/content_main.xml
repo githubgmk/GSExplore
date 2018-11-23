@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.main.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:id="@+id/GMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logoGMK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:scaleType="center"
+            android:src="@drawable/gmk" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GMK"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:columnCount="2"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        app:layout_anchorGravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnMainCst"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_customer" />
+
+        <Button
+            android:id="@+id/btnMainPo"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_po" />
+
+        <Button
+            android:id="@+id/btnMainCallPlan"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_callplan" />
+
+        <Button
+            android:id="@+id/btnMainTarget"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_target" />
+
+        <Button
+            android:id="@+id/btnMainPromo"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_promo" />
+
+        <Button
+            android:id="@+id/btnMainReport"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="@dimen/main_margin_button_bottom"
+            android:layout_marginLeft="@dimen/main_margin_button_left"
+            android:layout_marginRight="@dimen/main_margin_button_right"
+            android:layout_marginTop="@dimen/main_margin_button_top"
+            android:background="@drawable/img_main_report" />
+    </GridLayout>
+</RelativeLayout>

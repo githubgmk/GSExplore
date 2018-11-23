@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "78374724493",
+    "firebase_url": "https://api-6025966079081035271-265212.firebaseio.com",
+    "project_id": "api-6025966079081035271-265212",
+    "storage_bucket": "api-6025966079081035271-265212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78374724493:android:cf48fa23d48a373b",
+        "android_client_info": {
+          "package_name": "com.gmk.geisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78374724493-t85hk42ll74ug7al0l5oedltco0ht2vr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "78374724493-t85hk42ll74ug7al0l5oedltco0ht2vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfR3YfmWFDalHM5ZlS1R2Q-iPPAZ6g-m4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

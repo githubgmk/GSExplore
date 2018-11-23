@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.customer.CustomerDetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/cstGroupNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cstNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NamaCustomer "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/cstNamaAlias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alias Name "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cstGroupNama"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--bengin cst code-->
+                <!---->
+                <!--bengin cst Code-->
+                <TextView
+                    android:id="@+id/cstLabelCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/CstIDCustomer" />
+
+                <TextView
+                    android:id="@+id/cstSpaceCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelCode"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/cstLabelCode"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelCode"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/cstSpaceCode"
+                    android:text="Id Customer" />
+                <!--end cst code-->
+                <!--bengin cst Level-->
+                <TextView
+                    android:id="@+id/cstLabelLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/cstLabelCode"
+                    android:layout_alignStart="@+id/cstLabelCode"
+                    android:layout_below="@+id/cstLabelCode"
+                    android:text="@string/CstLevel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelLevel"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelLevel"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Level" />
+                <!--end cst label-->
+                <!--3 bengin cst Channel-->
+                <TextView
+                    android:id="@+id/cstLabelChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelLevel"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstChannel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelChannel"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelChannel"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Channel" />
+                <!--end cst label-->
+                <!--4bengin cst Area-->
+                <TextView
+                    android:id="@+id/cstLabelArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelChannel"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstArea" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelArea"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelArea"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Area" />
+                <!--end cst label-->
+                <!--5bengin cst Zone-->
+                <TextView
+                    android:id="@+id/cstLabelZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelArea"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstZone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelZone"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelZone"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Zone" />
+                <!--end cst label-->
+                <!--5bengin cst StatusId-->
+                <TextView
+                    android:id="@+id/cstLabelStatusMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelZone"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstStatusMember" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelStatusMember"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstStatusMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelStatusMember"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Status" />
+                <!--end cst label-->
+                <TextView
+                    android:id="@+id/cstLabelInfoDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelStatusMember"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/CstDetailCustomer"
+                    android:textStyle="bold" />
+                <!--5bengin cst PIC-->
+                <TextView
+                    android:id="@+id/cstLabelPIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelInfoDetail"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstPIC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPIC"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstPIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelPIC"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id PIC" />
+                <!--end cst label-->
+                <!--5bengin cst Jabatan PIC-->
+                <TextView
+                    android:id="@+id/cstLabelPICJabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelPIC"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstJabatanPIC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPICJabatan"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstPICJabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelPICJabatan"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="posisi" />
+                <!--end cst label-->
+                <!--5bengin cst Email-->
+                <TextView
+                    android:id="@+id/cstLabelEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelPICJabatan"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstEmail" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelEmail"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelEmail"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Email" />
+                <!--end cst label-->
+                <!--5bengin cst Telp-->
+                <TextView
+                    android:id="@+id/cstLabelTelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelEmail"
+                    android:layout_marginTop="5dp"
+                    android:text="Telp/HP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelTelp"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstTelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelTelp"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_alignStart="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Telp" />
+                <!--end cst label-->
+                <!--5bengin cst Alamat-->
+                <TextView
+                    android:id="@+id/cstLabelAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelTelp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstAlamat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelAlamat"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelAlamat"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Alamat" />
+                <!--end cst label-->
+
+                <TextView
+                    android:id="@+id/cstLabelInfoFinance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelAlamat"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Detail Complain"
+                    android:textStyle="bold" />
+                <!--5bengin cst tgl Join-->
+                <TextView
+                    android:id="@+id/cstLabelJoinDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelInfoFinance"
+                    android:layout_marginTop="5dp"
+                    android:text="Complain ID" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelJoinDate"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csComplainId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelJoinDate"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="complain id" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelpic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelJoinDate"
+                    android:layout_marginTop="5dp"
+                    android:text="PIC Complain" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelpic"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelpic"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Pic" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelpicjabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelpic"
+                    android:layout_marginTop="5dp"
+                    android:text="PIC Jabatan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelpicjabatan"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csPicJabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelpicjabatan"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="jabatan" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelpiccontact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelpicjabatan"
+                    android:layout_marginTop="5dp"
+                    android:text="Contact Number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelpiccontact"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csPicContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelpiccontact"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="contact" />
+                <!--end cst label-->
+                <!--5bengin cst StatusId PKP-->
+                <TextView
+                    android:id="@+id/cstLabelStatusPKP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelpiccontact"
+                    android:layout_marginTop="5dp"
+                    android:text="Type Complain" />
+
+                <!--end cst label-->
+                <RelativeLayout
+                    android:id="@+id/labeltypecomplain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelStatusPKP">
+
+                    <CheckBox
+                        android:id="@+id/safetyfood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/keamananaPangan"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/qualityfood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/safetyfood"
+                        android:text="@string/qualitasproduk"
+                         />
+
+                    <CheckBox
+                        android:id="@+id/qualityapplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/qualityfood"
+                        android:text="@string/qualitasaplikasi"
+                         />
+
+                    <CheckBox
+                        android:id="@+id/quantityall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@id/safetyfood"
+                        android:layout_toRightOf="@id/safetyfood"
+                        android:text="@string/kuantitasproduk"
+                         />
+
+                    <CheckBox
+                        android:id="@+id/packaginall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/qualityfood"
+                        android:layout_alignStart="@id/quantityall"
+                        android:layout_toRightOf="@id/qualityfood"
+                        android:text="@string/packaginall"
+                         />
+                </RelativeLayout>
+
+                <!--5bengin cst Kredit Limit-->
+                <TextView
+                    android:id="@+id/cstLabelLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/labeltypecomplain"
+                    android:layout_marginTop="5dp"
+                    android:text="Produk Complain" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelLimit"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csProduk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelLimit"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="produk komplain" />
+                <!--end cst label-->
+                <!--5bengin cst TOP-->
+                <TextView
+                    android:id="@+id/cstLabelTOP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelLimit"
+                    android:layout_marginTop="5dp"
+                    android:text="Detail Produk" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelTOP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csProdukDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelTOP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="detail produk" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelNPWP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelTOP"
+                    android:layout_marginTop="5dp"
+                    android:text="Tanggal Pengiriman Produk" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelNPWP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstTglSample"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelNPWP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="tgl" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelcom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelNPWP"
+                    android:layout_marginTop="5dp"
+                    android:text="Detail Complain" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelcom"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csComplainDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelcom"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Detail Complain" />
+                <!--end cst label-->
+                <TextView
+                    android:id="@+id/cstLabelInfoResponse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelcom"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Response Complain"
+                    android:textStyle="bold" />
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelPriority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelInfoResponse"
+                    android:layout_marginTop="5dp"
+                    android:text="Priority" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPriority"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csPriority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelPriority"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Priority" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelResponseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelPriority"
+                    android:layout_marginTop="5dp"
+                    android:text="Response By" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPriority"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csResponseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelResponseDate"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Response Date" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelResponse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelResponseDate"
+                    android:layout_marginTop="5dp"
+                    android:text="Response" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelResponseDate"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/csResponse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelResponse"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Response" />
+                <!--end cst label-->
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

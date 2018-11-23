@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmk.geisa"
+    android:versionCode="23"
+    android:versionName="2.2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26" />
+
+    <permission
+        android:name="com.gmk.geisa.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gmk.geisa.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GPS_ENABLED_CHANGE" />
+    <!-- To auto-complete the email text field in the ceklogin form with the user's emails -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.gmk.geisa.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gmk.geisa.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDTzOc9m1ilpMS8ws6ygPqpvwwcDgMdg-M" />
+
+        <activity
+            android:name="com.gmk.geisa.activities.main.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.main.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gmk.geisa.activities.personal.ForgotPasswordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.personal.PesanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.personal.ChatRoomActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.main.SplashActivity"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gmk.geisa.activities.main.PromoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Promo1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.customer.CustomerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_customer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.gmk.geisa.activities.customer.CustomerOutletActivity" />
+        <activity
+            android:name="com.gmk.geisa.activities.customer.CustomerDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.customer.CustomerDetailAllActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.gmk.geisa.activities.customer.CustomerAddActivity" />
+        <activity
+            android:name="com.gmk.geisa.activities.support.PetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.gmk.geisa.activities.customer.CustomerMapActivity" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.CallPlanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_callPlan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.CallPlanDraftActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_callPlan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.CallPlanDraftNewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_callPlan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.CallPlanDraftNewAddCustActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <!--
+            <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDTzOc9m1ilpMS8ws6ygPqpvwwcDgMdg-M" />
+        -->
+
+        <activity
+            android:name="com.gmk.geisa.activities.support.SyncActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity
+            android:name="com.gmk.geisa.activities.support.ResendActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity
+            android:name="com.gmk.geisa.activities.customer.CustomerAddDistributorActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity android:name="com.gmk.geisa.activities.personal.PasswordActivity" />
+        <activity
+            android:name="com.gmk.geisa.activities.support.SupportActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.VisitCallPlan"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.CustomerService"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.Expansi"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.BiActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.DemoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.ComplainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.SampleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.SampleAddActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.SampleItemActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.SampleItemAddProductActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.TodoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.callplan.visit.SurveyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.product.ProductActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Product List"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.product.StockDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.po.PoNewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="New PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.po.PoConfirmActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Pending PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportCallPlanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report Call Plan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportPOActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportDemoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report Demo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportMain"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportBIActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report BIN"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportComplainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report Complain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportComplainDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportSampleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="All Report Complain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.report.ReportSampleDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.po.PoNewAddProductActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.gmk.geisa.activities.po.PoNewAddNumberReffActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.gmk.geisa.activities.rofo.RofoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="New PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.rofo.RofoMonthActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gmk.geisa.activities.rofo.RofoNewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="New PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.androidadvance.androidsurvey.SurveyActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.gmk.geisa.activities.Promo1.Promo1Activity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.gmk.geisa" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.gmk.geisa.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

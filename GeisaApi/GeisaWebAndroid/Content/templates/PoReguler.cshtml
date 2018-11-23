@@ -1,0 +1,41 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>@ViewBag.SubjectMail</title>
+</head>
+<body>
+    Dear @ViewBag.PicDist,<br />
+    Mohon Untuk segera diproses PO dengan detail dibawah ini.<br />
+    <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+        <div align="left">
+            <table border="0">
+                <tr><td>PO Number</td><td>: @ViewBag.PoId</td></tr>
+                <tr><td>PO Customer Ref</td><td>: @ViewBag.PoRefId</td></tr>
+                <tr><td>PO Date</td><td>: @ViewBag.PoDate</td></tr>
+                <tr><td>Sales Confirm Date</td><td>: @ViewBag.SalesConfirmDate</td></tr>
+                <tr><td>Ship Date</td><td>: @ViewBag.ShipDate</td></tr>
+                <tr><td>Customer Name</td><td>: @ViewBag.CustName</td></tr>
+                <tr><td>Channel</td><td>: @ViewBag.Channel</td></tr>
+                <tr><td>Sales</td><td>: @ViewBag.SalesName</td></tr>
+                <tr><td>PO by</td><td>: @ViewBag.By</td></tr>
+                <tr><td>PO via</td><td>: @ViewBag.Via</td></tr>
+                <tr><td>Jumlah Order</td><td>: @ViewBag.QtyProduk Item</td></tr>
+                <tr><td>Value Order</td><td>: @ViewBag.Value </td></tr>
+                <tr><b><td>Status Order</td><td>: @ViewBag.StatusOrder</td></b></tr>
+                <tr><b><td>Note</td><td>: <i>@ViewBag.Note</i></td></b></tr>
+                <tr><b><td>Alamat Kirim</td><td>: <i>@ViewBag.AlamatKirim</i></td></b></tr>
+            </table>
+        </div>
+    </div>
+    <p>Untuk melihat detail PO, silahkan download attachment terlampir.</p>
+    <p> Approval by Customer/ Sales :</p>
+    <img src='cid:@ViewBag.Signature' alt='Signature' width='182' height='75' /></br>
+    @ViewBag.PicCust,
+   <p><i>
+            Email ini dikirim secara otomatis oleh system dan merupakan PO yang sah, tidak perlu dibalas.
+            Untuk keterangan lebih lanjut silahkan hubungi BE terkait
+            GeisaForce - @ViewBag.DateSend
+   </i></p>
+</body>
+</html>

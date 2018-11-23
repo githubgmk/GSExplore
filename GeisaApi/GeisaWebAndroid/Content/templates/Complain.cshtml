@@ -1,0 +1,37 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>@ViewBag.SubjectMail</title>
+</head>
+<body>
+    Dear @ViewBag.Superior,<br />
+    mohon untuk diperiksa Complain dari customer. mohon agar diperiksa dan ditindaklanjuti.<br />
+    <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+        <div align="left">
+            <table border="0">
+                <tr><td style="white-space:nowrap">Complain ID</td><td>: @ViewBag.ComplainId</td></tr>
+                <tr><td style="white-space:nowrap">Customer Name</td><td>: @ViewBag.CustName</td></tr>
+                <tr><td style="white-space:nowrap">Customer Address</td><td>: @ViewBag.CustAddress</td></tr>
+                <tr><td style="white-space:nowrap">Created Date</td><td>: @ViewBag.CreatedDate</td></tr>
+                <tr><td style="white-space:nowrap">Complain Type</td><td>: @ViewBag.ComplainType</td></tr>
+                <tr><td style="white-space:nowrap">Product</td><td>: @ViewBag.ProductId - @ViewBag.ProductIdName</td></tr>
+                <tr><td style="white-space:nowrap">Product Detail</td><td>: @ViewBag.ProductDetail</td></tr>
+                <tr><td style="white-space:nowrap">Pengiriman Sample Detail</td><td>: @ViewBag.SampleDate</td></tr> 
+                <tr><td style="white-space:nowrap">PIC Cust</td><td>: @ViewBag.Pic</td></tr>
+                <tr><td style="white-space:nowrap">PIC Jabatan</td><td>: @ViewBag.Jabatan</td></tr>
+                <tr><td style="white-space:nowrap">Contact Number</td><td>: @ViewBag.Contact</td></tr>    
+                <tr><td style="white-space:nowrap">Complain Detail</td><td>: @ViewBag.ComplainDetail</td></tr>       
+            </table>
+        </div>
+    </div>
+    <p>Salam,</p>
+    <!---<img src='cid:/*ViewBag.Signature*/' alt='Signature' width='182' height='75' /></br>-->
+    @ViewBag.SalesName
+   <p><i>
+            Email ini dikirim secara otomatis oleh system, tidak perlu dibalas.
+            Untuk keterangan lebih lanjut silahkan hubungi BE terkait
+            GeisaForce - @ViewBag.DateSend
+   </i></p>
+</body>
+</html>

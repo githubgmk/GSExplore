@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.support.SyncActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/infodownload"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:src="@drawable/syncdata" />
+
+        <TextView
+            android:id="@+id/pleasewait"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="Press Dowload To Start"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <CheckBox
+                    android:id="@+id/cCustomer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="false"
+                    android:enabled="true"
+                    android:text="Master Customer"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pCustomer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cCustomer"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cCustomer"
+                    android:clickable="false"
+                    android:text="Master Area"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cArea"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cArea"
+                    android:clickable="false"
+                    android:text="Master Level"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cLevel"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cLevel"
+                    android:clickable="false"
+                    android:text="Master Channel"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cChannel"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cChannel"
+                    android:clickable="false"
+                    android:text="Master Zone"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cZone"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cCustStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cZone"
+                    android:clickable="false"
+                    android:text="Master Cust Status"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pCustStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cCustStatus"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cDistributor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cCustStatus"
+                    android:clickable="false"
+                    android:text="Master Distributor"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pDistributor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cDistributor"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cDistributorBranch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cDistributor"
+                    android:clickable="false"
+                    android:text="Master Distributor Branch"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pDistributorBranch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cDistributorBranch"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cDistributorBranch"
+                    android:clickable="false"
+                    android:text="Master Product"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cProduct"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cProduct"
+                    android:clickable="false"
+                    android:text="Master Price"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cPrice"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+                <CheckBox
+                    android:id="@+id/cCallPlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cPrice"
+                    android:clickable="false"
+                    android:text="Master CallPlan"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pCallPlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cCallPlan"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+                <CheckBox
+                    android:id="@+id/cBiType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cCallPlan"
+                    android:clickable="false"
+                    android:text="Master Visit Type"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pBiType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cBiType"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+                <CheckBox
+                    android:id="@+id/cTarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cBiType"
+                    android:clickable="false"
+                    android:text="Master Target Rofo"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pTarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cTarget"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+                <CheckBox
+                    android:id="@+id/cPromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cTarget"
+                    android:clickable="false"
+                    android:text="Master Promo"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pPromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cPromo"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+                <CheckBox
+                    android:id="@+id/cUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cPromo"
+                    android:clickable="false"
+                    android:text="Master Unit"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/pUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cUnit"
+                    android:layout_alignParentRight="true"
+                    android:text="Not Start" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/SyncUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mdtp_button_color"
+        android:text="Download" />
+    <Button
+        android:id="@+id/SyncClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Close" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Wed Nov 21 21:55:27 ICT 2018
+base.0=D\:\\geisav3\\geisar3\\GeisaAndro\\GeisaApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>@ViewBag.SubjectMail</title>
+</head>
+<body>
+    Dear @ViewBag.Superior,<br />
+    mohon untuk diperiksa info BIN yang telah saya ambil dari customer. mohon agar diperiksa dan diapprove.<br />
+    <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+        <div align="left">
+            <table border="0">
+                <tr><td>BIN ID</td><td>: @ViewBag.BinId</td></tr>
+                <tr><td>CallPlan ID</td><td>: @ViewBag.CallPlanId</td></tr>
+                <tr><td>Bussines Executive</td><td>: @ViewBag.SalesName</td></tr>
+                <tr><td>Customer Name</td><td>: @ViewBag.CustName</td></tr>
+                <tr><td>Customer Address</td><td>: @ViewBag.CustAddress</td></tr>
+                <tr><td>Created Date</td><td>: @ViewBag.CreatedDate</td></tr>
+                <tr><td>BIN Type</td><td>: @ViewBag.BINType</td></tr>
+                <tr><td>Info BIN</td><td>: @ViewBag.note1</td></tr>
+                <tr><td>Info Cust</td><td>: @ViewBag.note2</td></tr>
+                <tr><td>Product</td><td>: @ViewBag.ProductId - @ViewBag.ProductName</td></tr>            
+            </table>
+        </div>
+    </div>
+    <p>Salam,</p>
+    <!---<img src='cid:/*ViewBag.Signature*/' alt='Signature' width='182' height='75' /></br>-->
+    @ViewBag.SalesName
+   <p><i>
+            Email ini dikirim secara otomatis oleh system, tidak perlu dibalas.
+            Untuk keterangan lebih lanjut silahkan hubungi BE terkait
+            GeisaForce - @ViewBag.DateSend
+   </i></p>
+</body>
+</html>

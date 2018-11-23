@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.gcacace:signature-pad-1.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/signature-pad-1.1.0.aar/374c0b2b045d1a9e716a80926355e825/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/signature-pad-1.1.0.aar/374c0b2b045d1a9e716a80926355e825/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gcacace/signature-pad/1.1.0/54721a355df3d0cf2a2f5f7b3588f59a6a9790e3/signature-pad-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

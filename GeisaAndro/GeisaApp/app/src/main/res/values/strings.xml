@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">GEISA</string>
+    <string name="app_name_long">GEISA</string>
+    <string name="app_name_detail">(GMK Sales Enterprise)</string>
+
+    <string name="Starting">Starting...</string>
+    <string name="Downloading">Downloding...</string>
+    <string name="ProblemDownloading">Problem With Download</string>
+    <string name="PleaseWait">Please Wait...</string>
+    <string name="Done">Done</string>
+    <string name="FinishDownload">Finish Downloading</string>
+    <!--drawer single-->
+    <string name="drawer_single_1">Add New Member</string>
+    <string name="drawer_single_2">Near Me</string>
+    <string name="drawer_single_3">Personal Data</string>
+    <string name="drawer_single_4">Forum DXIC</string>
+    <string name="drawer_single_5">Member List</string>
+    <string name="drawer_single_6">Laporan</string>
+    <!--drawer communication-->
+    <string name="drawer_communication_1">Sync Data</string>
+    <string name="drawer_communication_2">Change Password</string>
+    <string name="drawer_communication_3">Download Data</string>
+    <string name="drawer_communication_5">ReSubmit Data</string>
+    <string name="drawer_communication_4">Coaching</string>
+    <!--drawer info-->
+    <string name="drawer_about">About</string>
+    <string name="drawer_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Strings related to ceklogin -->
+    <string name="prompt_password">Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="traffic">Traffic</string>
+    <string name="my_location">My Location</string>
+    <string name="buildings">Buildings</string>
+    <string name="none_map">None</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+        <item>@string/none_map</item>
+    </string-array>
+    <!-- Strings related to ceklogin -->
+    <string name="prompt_createdby">Dibuat Oleh</string>
+    <string name="prompt_informan">Temuan</string>
+    <string name="prompt_isiketerangan">Keterangan</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_serial">Serial Number</string>
+    <string name="prompt_email">Email Address</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">SignIn</string>
+    <string name="action_register_in">Register</string>
+    <string name="action_register_in_short">Register</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- support -->
+    <string name="support_phone">+628980093303 / +628111208959</string>
+    <string name="support_email">fiqriputra@gmail.com / fiqri.putra@gandummas.co.id</string>
+    <string name="support_address">Jl. Moh Toha KM 3 Tangerang - Banten-Indonesia</string>
+    <string name="support_Web">www.gandummas.co.id</string>
+    <string name="support_TOE">Term of Use</string>
+    <string name="support_CekUpdate">Check for Update</string>
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <!--pesan error-->
+    <string name="string_getting_json_message">Menghubungkan Dengan Server...</string>
+    <string name="error_warning_internet">Pastikan Internet/Wifi Aktif</string>
+    <string name="error_expired_tgl">Expired Serial Number</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_invalid">This serial is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password or username is incorrect</string>
+    <string name="error_incorrect_imei">The imei is different with registered</string>
+    <string name="error_incorrect_serial">Wrong Serial Or Expired Serial</string>
+    <string name="error_on_register">Failed on Register Try Again Later</string>
+    <string name="error_incorrect_max_serial">Serial has been reach limit</string>
+    <string name="error_connection">Cannot Connect To Server</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_download">DownloadActivity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--customer-->
+    <string name="CstNama">Customer Name*</string>
+    <string name="CstNamaAlias">Customer Alias</string>
+    <string name="CstIDCustomer">ID Customer</string>
+    <string name="CstLevel">Level*</string>
+    <string name="CstChannel">Channel*</string>
+    <string name="CstArea">Area*</string>
+    <string name="CstZone">Zone</string>
+    <string name="CstStatusMember">Status Customer</string>
+    <string name="CstDetailCustomer">Detail Customer</string>
+    <string name="CstLocation">Location*</string>
+    <string name="CstPIC">PIC*</string>
+    <string name="CstJabatanPIC">PIC Position</string>
+    <string name="CstEmail">Email</string>
+    <string name="CstTelp">Telp*</string>
+    <string name="CstHP">HP*</string>
+    <string name="CstAlamat">Address*</string>
+    <string name="CstWebsite">Website</string>
+    <string name="CstFinanceInfo">Finance Info</string>
+    <string name="CstJoinDate">Join Date*</string>
+    <string name="CstStatusPKP">PKP Status*</string>
+    <string name="CstKreditLimit">Credit Limit</string>
+    <string name="CstTOP">TOP</string>
+    <string name="CstNPWP">NPWP</string>
+    <string name="CstDistributorAndPriceInfo">Distributor And Price Info</string>
+    <string name="CstDetailCustomerInfo">Customer Info</string>
+    <string name="CstDistributor">Distributor*</string>
+    <string name="CstCustomerCode">Customer Code* fill 0000 if don\'header have</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="NotInCustomer">Not In Customer</string>
+    <string name="customerActive">Regular Customer</string>
+    <string name="custProspect">Prospect Customer</string>
+    <string name="CstDetailCustomerType">Customer Type*</string>
+    <string name="action_next">Next</string>
+    <string name="action_send">Send</string>
+    <string name="title_activity_callPlan">Call Plan</string>
+    <string name="CallPlanDate">Date Call Plan*</string>
+    <string name="ListCustomer">List Customer*</string>
+    <string name="addCustomer">+Add Customer</string>
+    <string name="templateName">Template Name*</string>
+    <string name="total_cust_selected">Total Customer Selected :</string>
+    <string name="callNoteId">Note Id*</string>
+    <string name="noteTypeId">TypeId*</string>
+    <string name="visitId">Visit Id*</string>
+    <string name="detailVisit">Info Visit</string>
+    <string name="note1">Detail Info BIN*</string>
+    <string name="callDemoId">Demo Id*</string>
+    <string name="visitstatusId">Status</string>
+    <string name="detailDemo">Detail Demo</string>
+    <string name="demopeserta">Total Peserta*</string>
+    <string name="demoDate">Demo Date*</string>
+    <string name="demotitle">Judul Demo*</string>
+    <string name="demodeskripsi">Demo Deskripsi*</string>
+    <string name="demoresponse">Demo Response</string>
+    <string name="detailDemodokumentasi">Dokumentasi Demo</string>
+    <string name="callcomplainId">Complain Id*</string>
+    <string name="detailcomplain">Detail Complain</string>
+    <string name="detailcomplaincustomer">Detail Customer</string>
+    <string name="complaincustname">PIC Cutomer Name*</string>
+    <string name="complaincustjab">Jabatan*</string>
+    <string name="typeComplain">Type Complain</string>
+    <string name="keamananaPangan">Keamanan Pangan</string>
+    <string name="qualitasproduk">Kualitas Produk</string>
+    <string name="qualitasaplikasi">Kualitas Aplikasi</string>
+    <string name="kuantitasproduk">Kuantitas</string>
+    <string name="packaginall">Kemasan</string>
+    <string name="complainitem">Item Id*</string>
+    <string name="complaindetilitem">Detail Item* ( batch/qty yg bermasalah/qty pembelian)</string>
+    <string name="detailitem">Produk Of Complain</string>
+    <string name="evidence">Evidence</string>
+    <string name="foto">Foto Produk</string>
+    <string name="tanggalsample">Tanggal Pengiriman Sample Product* (min 1kg)</string>
+    <string name="sampleid">Sample Id*</string>
+    <string name="samplefor">Tujuan Penggunaan Sample*</string>
+    <string name="statussample">Sample Status</string>
+    <string name="sampleDateRequest">Sample Request Date*</string>
+    <string name="sampleDateReceived">Sample Received Date*</string>
+    <string name="fotopengiriman">Foto Realisasi Sample*</string>
+    <string name="reaisasisample">Realisasi Sample</string>
+    <string name="requestsample">Request Sample</string>
+    <string name="detailpenerima">Detail Penerima Sample</string>
+    <string name="responsenote">Response Dari User*</string>
+    <string name="responsedetail">Detail Response</string>
+    <string name="CstBranchId">Cust Branch ID</string>
+    <string name="Reguler">Regular</string>
+    <string name="pp">Local Promo (PP)</string>
+    <string name="povia">PO Via*</string>
+    <string name="podate">Shipment Date*</string>
+    <string name="listproduct">List Product*</string>
+    <string name="addProduct">+Add Product</string>
+    <string name="endperiode">End Periode*</string>
+    <string name="startperiode">Start Periode*</string>
+    <string name="discfaktur1">Disc Faktur HO(%)</string>
+    <string name="discfaktur2">Disc Faktur Dist(%)</string>
+    <string name="discfakturcash">Disc COD Dist(%)</string>
+    <string name="discfaktur1ho">Disc Faktur 1(%)</string>
+    <string name="discfaktur2ho">Disc Faktur 2(%)</string>
+    <string name="discfakturcashho">Disc Faktur 3(%)</string>
+    <string name="alamatkirim">Alamat Kirim*</string>
+    <string name="picdist">PIC Distributor Name</string>
+    <string name="catatan">Catatan Khusus</string>
+    <string name="status">Status</string>
+    <string name="ponumber">PO Number*</string>
+    <string name="listproductother">List Product Other</string>
+    <string name="addProductOther">+Add Other Product</string>
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="ProblemUploading">Problem With Upload</string>
+
+    <string name="defaultpassword">click here?</string>
+    <string name="error_incorrect_userlogin">wrong user login</string>
+
+    <string name="permissionExplanation">Look, we really need your location because its cool&#8230;</string>
+    <string name="switchOnLocationShort">Oops - you seem to have disabled location services at the moment. This app is
+        really cool and needs your location because its helpfull. To continue, please click on "OK".</string>
+    <string name="switchOnLocationLong">Oops - you seem to have disabled location services at the moment. This app is
+        really cool and needs your location because its helpfull. To continue, please click on "OK" and enable
+        location. If you\'re worried about battery usage, be sure to switch to energy saving mode. </string>
+    <string name="permissionPermanentlyDeclined">Bummer! You have permanently declined the location permission. But
+        this app is so cool and needs your location because its helpfull&#8230; you know. Click "OK" to change the permission
+        settings.</string>
+    <string name="mockLocationMessage">This application is not supported when mock locations are turned on. Please go to your settings and turn them off to continue.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Mmmmh, no</string>
+    <string name="error">Error</string>
+    <string name="note2">Info Competitor/Customer</string>
+    <string name="note3">Info Product</string>
+    <string name="SChannelCode">Channel Code</string>
+    <string name="SChannelName">Channel Name</string>
+    <string name="SChannelGrade">Grade Info</string>
+    <string name="SChannelKlasifikasi">Channel Detail</string>
+    <string name="SChannelGroup">Channel Group</string>
+    <string name="SChannelPeriode">Efektive Date</string>
+    <string name="SchannelDesc">Description</string>
+    <string name="SChannelGradeCode">Grade Code</string>
+    <string name="SChannelGradeName">Grade Name</string>
+    <string name="SChannelGradeDetail">Grade Detail</string>
+    <string name="SChannelAppCode">App Code</string>
+    <string name="SChannelAppName">App Name</string>
+    <string name="SChannelStagingCode">Staging Code</string>
+    <string name="SChannelStagingName">Staging Name</string>
+    <string name="SChannelStagingDesc">Desc</string>
+    <string name="SChannelStagingWalet">Share Walet</string>
+    <string name="SChannelStaging">Staging Info</string>
+    <string name="lastUpdate">Last Update</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+</resources>

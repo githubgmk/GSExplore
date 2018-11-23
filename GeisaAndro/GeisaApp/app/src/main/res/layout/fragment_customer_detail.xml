@@ -1,0 +1,635 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gmk.geisa.fragment.CustomerDetailTabClasificationViewFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cstGroupNama"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <!--bengin cst code-->
+                <!---->
+                <!--bengin cst Code-->
+                <TextView
+                    android:id="@+id/cstLabelCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/CstIDCustomer" />
+
+                <TextView
+                    android:id="@+id/cstSpaceCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/cstCode"
+                    android:layout_marginBottom="153dp"
+                    android:layout_toEndOf="@+id/cstLabelStatusMember"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelCode"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/cstSpaceCode"
+                    android:text="Id Customer" />
+                <!--<Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@null"
+                    android:drawableTop="@android:drawable/ic_menu_today"
+                    android:text="History" />-->
+                <!--end cst code-->
+                <!--bengin cst Level-->
+                <TextView
+                    android:id="@+id/cstLabelLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/cstLabelCode"
+                    android:layout_alignStart="@+id/cstLabelCode"
+                    android:layout_below="@+id/cstLabelCode"
+                    android:text="@string/CstLevel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelLevel"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelLevel"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Level" />
+                <!--end cst label-->
+                <!--3 bengin cst Channel-->
+                <TextView
+                    android:id="@+id/cstLabelChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelLevel"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstChannel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelChannel"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelChannel"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Channel" />
+                <!--end cst label-->
+                <!--4bengin cst Area-->
+                <TextView
+                    android:id="@+id/cstLabelArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelChannel"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstArea" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelArea"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelArea"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Area" />
+                <!--end cst label-->
+                <!--5bengin cst Zone-->
+                <TextView
+                    android:id="@+id/cstLabelZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelArea"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstZone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelZone"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelZone"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Zone" />
+                <!--end cst label-->
+                <!--5bengin cst StatusId-->
+                <TextView
+                    android:id="@+id/cstLabelStatusMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelZone"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstStatusMember" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelStatusMember"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstStatusMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelStatusMember"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Status" />
+                <!--end cst label-->
+                <TextView
+                    android:id="@+id/cstLabelInfoDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelStatusMember"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/CstDetailCustomer"
+                    android:textStyle="bold" />
+                <!--5bengin cst Location-->
+                <TextView
+                    android:id="@+id/cstLabelLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelInfoDetail"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstLocation" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelLocation"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelLocation"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Location" />
+
+                <Button
+                    android:id="@+id/btnCstLocation"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelInfoDetail"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@id/cstLocation"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cst_marker_location" />
+                <!--end cst label-->
+                <!--5bengin cst PIC-->
+                <TextView
+                    android:id="@+id/cstLabelPIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelLocation"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstPIC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPIC"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstPIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelPIC"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id PIC" />
+                <!--end cst label-->
+                <!--5bengin cst Jabatan PIC-->
+                <TextView
+                    android:id="@+id/cstLabelPICJabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelPIC"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstJabatanPIC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelPICJabatan"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstPICJabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelPICJabatan"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="posisi" />
+                <!--end cst label-->
+                <!--5bengin cst Email-->
+                <TextView
+                    android:id="@+id/cstLabelEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelPICJabatan"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstEmail" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelEmail"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelEmail"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Email" />
+                <!--end cst label-->
+                <!--5bengin cst Telp-->
+                <TextView
+                    android:id="@+id/cstLabelTelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelEmail"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstTelp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelTelp"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstTelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelTelp"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_alignStart="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Telp" />
+                <!--end cst label-->
+                <!--5bengin cst HP-->
+                <TextView
+                    android:id="@+id/cstLabelHP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelTelp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstHP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelHP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstHP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelHP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id HP" />
+                <!--end cst label-->
+
+                <!--5bengin cst Alamat-->
+                <TextView
+                    android:id="@+id/cstLabelAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelHP"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstAlamat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelAlamat"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelAlamat"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Alamat" />
+                <!--end cst label-->
+                <!--5bengin cst Website-->
+                <TextView
+                    android:id="@+id/cstLabelWebsite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelAlamat"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstWebsite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelWebsite"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstWebsite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelWebsite"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Website" />
+                <!--end cst label-->
+                <TextView
+                    android:id="@+id/cstLabelInfoFinance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelWebsite"
+                    android:layout_below="@id/cstLabelWebsite"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/CstFinanceInfo"
+                    android:textStyle="bold" />
+                <!--5bengin cst tgl Join-->
+                <TextView
+                    android:id="@+id/cstLabelJoinDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelInfoFinance"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstJoinDate" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelJoinDate"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstJoinDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelJoinDate"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Join Date" />
+                <!--end cst label-->
+                <!--5bengin cst StatusId PKP-->
+                <TextView
+                    android:id="@+id/cstLabelStatusPKP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelJoinDate"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstStatusPKP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelStatusPKP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstStatusPKP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelStatusPKP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Status PKP" />
+                <!--end cst label-->
+                <!--5bengin cst Kredit Limit-->
+                <TextView
+                    android:id="@+id/cstLabelLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelStatusPKP"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstKreditLimit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelLimit"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstLimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelLimit"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id Limit" />
+                <!--end cst label-->
+                <!--5bengin cst TOP-->
+                <TextView
+                    android:id="@+id/cstLabelTOP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelLimit"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstTOP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelTOP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstTOP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelTOP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id TOP" />
+                <!--end cst label-->
+                <!--5bengin cst NPWP-->
+                <TextView
+                    android:id="@+id/cstLabelNPWP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelCode"
+                    android:layout_below="@id/cstLabelTOP"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CstNPWP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/cstLabelNPWP"
+                    android:layout_alignLeft="@id/cstSpaceCode"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/cstNPWP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cstLabelNPWP"
+                    android:layout_alignLeft="@id/cstCode"
+                    android:layout_marginTop="5dp"
+                    android:text="Id NPWP" />
+                <!--end cst label-->
+                <TextView
+                    android:id="@+id/cstLabelInfoDist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/cstLabelNPWP"
+                    android:layout_below="@id/cstLabelNPWP"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/CstDistributorAndPriceInfo"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                </android.support.design.widget.TabLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                </android.support.v4.view.ViewPager>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

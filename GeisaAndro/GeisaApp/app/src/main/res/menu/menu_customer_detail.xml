@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.customer.CustomerDetailActivity">
+    <item
+        android:id="@+id/menuAddCst"
+        android:icon="@drawable/ic_menu_add_customer"
+        android:title="Outlet"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menuAddDist"
+        android:icon="@drawable/adddist"
+        android:title="Dist"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menuRefresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

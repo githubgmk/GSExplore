@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/cancelWork"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_gravity="right|top"
+                android:gravity="right|top"
+                android:background="@drawable/cancelred" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.gmk.geisa.fragment.tab.TransparentMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bacgroundcekin"
+        android:layout_width="258dp"
+        android:layout_height="254dp"
+        android:layout_gravity="center"
+        android:background="@drawable/checkout_buletan"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="159dp"
+            android:layout_height="73dp"
+            android:src="@drawable/checkin_text" />
+
+        <TextClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="DigitalClock"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/startWork"
+            android:layout_width="104dp"
+            android:layout_height="65dp"
+            android:background="@drawable/btn_cek_in_buletan" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

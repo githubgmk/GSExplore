@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.support.SupportActivity">
+
+    <ImageView
+        android:id="@+id/simgdev"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.6"
+        android:adjustViewBounds="false"
+        android:background="@mipmap/ic_launcher"
+        android:cropToPadding="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/sphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/support_phone"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/sphoneimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_action_call_light"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/semail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/sphone"
+            android:layout_marginTop="10dp"
+            android:text="@string/support_email"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/semailimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/sphone"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_inbox"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/salamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/semail"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/support_address"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/salamatimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/semail"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_action_place_light"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/sweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/salamat"
+            android:layout_marginTop="10dp"
+            android:text="@string/support_Web"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/swebimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/salamat"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_action_web_site"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/stoe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/sweb"
+            android:layout_marginTop="10dp"
+            android:text="@string/support_TOE"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/stoeimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/sweb"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_terms_conditions"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/sversi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/stoe"
+            android:layout_marginTop="10dp"
+            android:text="DXIC Versi 1.3"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/scekupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sversi"
+            android:layout_marginTop="10dp"
+            android:text="@string/support_CekUpdate" />
+
+
+    </RelativeLayout>
+</LinearLayout>
+

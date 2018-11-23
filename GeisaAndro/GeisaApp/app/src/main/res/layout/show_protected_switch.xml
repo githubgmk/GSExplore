@@ -1,0 +1,20 @@
+
+    <!--<Button xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/startstopWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:icon="@drawable/ic_menu_add_customer" />-->
+
+<com.kyleduo.switchbutton.SwitchButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/startstopWork"
+    style="@style/SwitchButtonStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textColor="@color/custom_text_state_color"
+    android:textSize="16dp"
+    app:kswTextOff="StartWork"
+    app:kswTextOn="Working"
+    app:kswTintColor="@color/green" />

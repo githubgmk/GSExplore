@@ -1,0 +1,144 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>@ViewBag.SubjectMail</title>
+    <style type="text/css">
+        #table-example-1 {
+            border: solid thin;
+            border-collapse: collapse;
+        }
+
+            #table-example-1 caption {
+                padding-bottom: 0.5em;
+            }
+
+            #table-example-1 th,
+            #table-example-1 td {
+                border: solid thin;
+                padding: 0.5rem 2rem;
+            }
+
+            #table-example-1 td {
+                white-space: nowrap;
+            }
+
+            #table-example-1 th {
+                font-weight: normal;
+            }
+
+            #table-example-1 td {
+                border-style: none solid;
+                vertical-align: top;
+            }
+
+            #table-example-1 th {
+                padding: 0.2em;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            #table-example-1 tbody td:first-child::after {
+                content: leader(". ");
+            }
+
+        td:nth-child(3) {
+            background: #FFE4E1;
+        }
+
+        td:nth-child(6) {
+            background: #FFE4E1;
+        }
+
+        th:nth-child(6) {
+            background: #FFE4E1;
+        }
+
+        td:nth-child(11) {
+            background: #FFE4E1;
+        }
+
+        th:nth-child(11) {
+            background: #FFE4E1;
+        }
+
+        body {
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    Dear @ViewBag.PicDist,<br />
+    Berikut kami informasikan pengajuan Proposal area<b> @ViewBag.Area </b> program dengan perincian sebagai berikut :<br />
+    <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+        <div align="left">
+            <table border="0">
+                <tr><td>PO Number</td><td>: @ViewBag.PoId</td></tr>
+                <tr><td>PO Customer Ref</td><td>: @ViewBag.PoRefId</td></tr>
+                <tr><td>PO Date</td><td>: @ViewBag.PoDate</td></tr>
+                <tr><td>Sales Confirm Date</td><td>: @ViewBag.SalesConfirmDate</td></tr>
+                <tr><td>Ship Date</td><td>: @ViewBag.ShipDate</td></tr>
+                <tr><td>Customer Name</td><td>: @ViewBag.CustName</td></tr>
+                <tr><td>Channel</td><td>: @ViewBag.Channel</td></tr>
+                <tr><td>Sales</td><td>: @ViewBag.SalesName</td></tr>
+                <tr><td>Jumlah Order</td><td>: @ViewBag.QtyProduk Item</td></tr>
+                <tr><td>Value Order</td><td>: @ViewBag.Value </td></tr>
+                <tr><b><td>Status Order</td><td>: @ViewBag.StatusOrder</td></b></tr>
+            </table>
+        </div>
+        <div>
+            <table id="table-example-1">
+                <thead>
+                    <tr>
+                        <th colspan="4">Program Lokal - <b>@ViewBag.Area</b></th>
+                        <th colspan="4"></th>
+                        <th colspan="2">Bonus</th>
+                        <th colspan="2">Diskon</th>
+                        <th colspan="4"></th>
+                    </tr>
+                    <tr>
+                        <th>No</th>
+                        <th>No PP</th>
+                        <th bgcolor="#FFE4E1">ID Outlet</th>
+                        <th>Outlet</th>
+                        <th>Area</th>
+                        <th>ID Produk</th>
+                        <th>PO</th>
+                        <th>Jml</th>
+                        <th>Nas</th>
+                        <th>Lokal</th>
+                        <th>Faktur</th>
+                        <th>Item</th>
+                        <th>ID Produk Bonus</th>
+                        <th>Berupa</th>
+                        <th>Target(crt)</th>
+                        <th>Periode prog</th>
+                    </tr>
+                </thead>
+                <tr>
+                    @ViewBody.TableValue
+                </tr>
+            </table>
+        </div>
+    </div>
+    <p>
+        <span style="background-color: yellow;">Note</span></br>
+        <span style="background-color: yellow;">Berlaku partial dan kelipatan selama periode program</span>
+    </p>
+    <p>Untuk melihat detail PO, silahkan download attachment terlampir.</p>
+    <p>
+        <b>Mohon bantuannya, untuk dapat meneruskan informasi ini ke PIC PK terkait</b></br>
+        Demikian konfirmasi ini kami sampaikan, terima kasih atas perhatian dan kerjasamanya
+    </p>
+    <p> Approval/Create By,</p>
+    <img src='cid:@ViewBag.Signature' alt='Signature' width='182' height='75' /></br>
+    @ViewBag.PicCust
+    <p>
+        <i>
+            Email ini dikirim secara otomatis oleh system dan merupakan PO yang sah, tidak perlu dibalas.
+            Untuk keterangan lebih lanjut silahkan hubungi BE terkait
+            GeisaForce - @ViewBag.DateSend
+        </i>
+    </p>
+</body>
+</html>

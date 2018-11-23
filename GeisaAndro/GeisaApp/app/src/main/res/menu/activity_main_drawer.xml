@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_visit"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="PO Draft" />
+        <item
+            android:id="@+id/nav_sell_out"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="New Sell Out" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Product" />
+        <item
+            android:id="@+id/nav_complain"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="New Complain" />
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Survey" />
+    </group>
+    <item android:title="Personal">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/drawer_single_3" />
+            <item
+                android:id="@+id/nav_pass"
+                android:icon="@android:drawable/ic_partial_secure"
+                android:title="@string/drawer_communication_2" />
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_inbox"
+                android:title="@string/drawer_communication_4" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@android:drawable/ic_popup_sync"
+                android:title="@string/drawer_communication_1" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="@string/drawer_communication_5" />
+        </menu>
+    </item>
+    <item android:title="Application Info">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/drawer_about" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/drawer_logout" />
+        </menu>
+    </item>
+
+</menu>
